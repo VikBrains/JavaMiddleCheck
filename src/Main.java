@@ -8,8 +8,8 @@ public class Main {
     public static void main(String[] args) {
         ToyStore store = new ToyStore();
         store.put("1 2 конструктор");
-        store.put("2 2 робот");
-        store.put("3 6 кукла");
+        store.put("2 2 робот-трансформер");
+        store.put("3 6 кукла Барби");
         List<String> results = new ArrayList<>();
         for (int i = 0; i < 10; i++) {
             results.add(store.get());
